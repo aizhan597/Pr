@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Финальный проект</title>
+</head>
+<body>
+
+    <!-- Навигация -->
+    <nav>
+        <a href="#">Главная</a>
+        <a href="#">Обо мне</a>
+        <a href="#">Контакты</a>
+        <a href="#">Ваш выбор</a>
+    </nav>
+
+    <!-- Раздел "Любимые блюда" -->
+    <section>
+        <h2>Любимые блюда</h2>
+        <ul>
+            <li>Яблоки</li>
+            <li>Пицца</li>
+            <li>Краб</li>
+            <li>Шоколадный торт</li>
+        </ul>
+    </section>
+
+    <!-- Раздел "Достижения" -->
+    <section>
+        <h2>Достижения</h2>
+        <p>Прогресс в этом курсе: <progress value="100" max="100"></progress> (100%)</p>
+        <p>Прогресс в специализации: <progress value="20" max="100"></progress> (20%)</p>
+        <p>Прогресс в жизненных целях: <progress value="67" max="100"></progress> (67%)</p>
+    </section>
+
+    <!-- Раздел "Больше обо мне" -->
+    <section>
+        <h2>Больше обо мне</h2>
+        <details>
+            <summary>Мое детство</summary>
+            <p>Я вырос в Аштабула, Огайо. Я жил рядом с озером Эри и очень скучаю по закатам над водой.</p>
+        </details>
+    </section>
+
+    <!-- Футер -->
+    <footer>
+        <p>Эту страницу создал <span style="background-color: yellow;">your name</span> & Colleen van Lent.</p>
+        <p>Для получения дополнительной информации о веб-дизайне посетите <a href="http://intro-webdesign.com" target="_blank">Intro to Web Design</a>.</p>
+        <img src="http://www.intro-webdesign.com/images/newlege.png" alt="Футер изображение">
+    </footer>
+
+</body>
+</html>
